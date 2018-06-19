@@ -13,6 +13,19 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+
+        <!--JDK序列化的替代者：kryo-->
+        <dependency>
+            <groupId> com.esotericsoftware</groupId>
+            <artifactId>kryo</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.esotericsoftware</groupId>-->
+            <!--<artifactId>kryo-shaded</artifactId>-->
+            <!--<version>4.0.1</version>-->
+        <!--</dependency>-->
+
     </dependencies>
 
 
